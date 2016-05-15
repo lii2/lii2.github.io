@@ -1,5 +1,6 @@
-var h = window.innerHeight;
+var img = document.getElementById('selfpic');
 
-b.onclick = function(){
-	alert('You clicked on my picture');
+window.onload = function(){
+    img.className -= "fadein";
+
 }

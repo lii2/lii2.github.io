@@ -6,6 +6,26 @@ body{
 	font-family:Verdana;
 }
 
+header{
+	font-weight:bold;
+}
+
+img {
+	opacity: 1;
+	transition: opacity 0.3s;
+}
+
+.fadein {
+        opacity: 0;
+        -moz-transition: opacity 1.5s;
+        -webkit-transition: opacity 1.5s;
+        -o-transition: opacity 1.5s;
+        transition: opacity 1.5s;
+    }
+
+.loaded {
+        opacity: 1;
+}
 	
 .backgroundgradient {
     background-color:#3A5F0B;
@@ -51,7 +71,6 @@ nav {
 	position:fixed;
 }
 
-
 #selfpic{
 	max-width:100%;
 	max-height:100%;
@@ -88,3 +107,94 @@ nav {
 	#degree {
 		font-size: 15px;
 	}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+#clickme {
+    -webkit-animation: blink 1s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: blink 1s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: blink 1s;
+    -o-animation-iteration-count: infinite;
+	float: right;
+}
+	
+#projects{
+	padding-top:100px;
+	height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+	padding-left: 15px;
+}
+
+#projects > header {
+    font-size: 30px;
+    font-weight: bold;
+	font-family: "Times New Roman", Times, serif
+}
+
+.normalfont{
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif
+}
+
+
+.projectscontainer{
+	position:absolute;
+	top: 20vh;
+	left: 30px;
+	width: 800px;
+}
+	
+.projectarticle {
+    width: 300px;
+    float: left;
+	margin-left: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+	
+}
+
+.projectarticlethumbnail {
+    width: 250px;
+    height: 250px;
+}
+
+.projectarticlename {
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+}
