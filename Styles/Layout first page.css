@@ -4,6 +4,7 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	font-family:Verdana;
+	
 }
 
 	
@@ -52,7 +53,7 @@ nav {
 }
 
 #page1{
-	height:110vh;
+	height:100vh;
 }
 
 #selfpic{
@@ -60,12 +61,11 @@ nav {
 	max-height:100%;
 	top:0;
 	z-index:1;
-	min-width: 1250px;
 }
 
 .welcometext{
-	position:absolute;
-	top:50vh;
+	position:relative;
+	top:-100vh;
 }
 
 .welcometext > div{
@@ -90,3 +90,17 @@ nav {
 	#degree {
 		font-size: 15px;
 	}
+
+#page2{
+	height:100vh;
+	z-index:2;
+}
+
+#projectintroductiontext{
+	text-align:center;
+
+}
+
+#page3{
+	height:100vh;
+}
