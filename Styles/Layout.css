@@ -1,0 +1,104 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-family:Verdana;
+	
+}
+
+	
+.backgroundgradient {
+    background-color:#3A5F0B;
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+    nav ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+        nav ul li {
+            display: block;
+        }
+
+#navtitle{
+	height: 35px;
+    margin-left: 5px;
+    font-size: 18px;
+    float: left;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+}
+		
+.navlink {
+    height: 35px;
+    margin-right: 30px;
+    font-size: 18px;
+    float: right;
+    padding-bottom: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+#navigationbar{
+	position:fixed;
+}
+
+#page1{
+	height:100vh;
+}
+
+#selfpic{
+	max-width:100%;
+	max-height:100%;
+	top:0;
+	z-index:1;
+}
+
+.welcometext{
+	position:relative;
+	top:-50vh;
+}
+
+.welcometext > div{
+    padding: 15px;
+    margin: 8px 0px;
+    font-weight: bold;
+	background: black;
+	opacity: 0.4;
+	color:#FFFFFF;
+	width: fit-content;
+	z-index:2;
+}
+
+	#myname{
+		font-size: 25px;
+	}
+
+	#titles{
+		font-size: 20px;
+	}
+
+	#degree {
+		font-size: 15px;
+	}
+
+#page2{
+	height:100vh;
+}
+
+#projectintroductiontext{
+	text-align:center;
+}
+
+#page3{
+	height:100vh;
+}
