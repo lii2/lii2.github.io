@@ -1,0 +1,18 @@
+		
+		
+		This site was designed and developed by me to showcase my skills and previous work. I decided on three pages, a landing page, a page that showed my projects, and a resume page.
+
+		I decided it should be relaxing and elegant, so I chose a color scheme of green and white. 
+
+		After trying to work with my old wordpress eportfolio, I was quickly frustrated by the lack of control wordpress allowed me, so I attempted to register a domain with google sites to discover that google sites also does not allow any significant control over site graphical design.
+
+		Fortunately I had a github account which comes with one free domain, so I quickly converted that from an old project to a new portfolio site.
+
+		I wanted the landing page to have a strong impact focusing on me, so first I took a variety of pictures to put in the center. I chose the one with the best lighting and centering. The pictures taken were much too big so I resized the one chosen to about half, then I added a fade in animation to smooth the loading time transition. 
+
+		A navigation bar was added to the top, for convenience, with fixed positioning for better browser integration. The element sizes are also based on viewport height to better accomodate various monitor sizes. I overlayed some introductory text over the picture so the viewer would know who I was. Black background with white text so it would be easily readable, and some transparency so as to not break up the background picture. 
+
+		The resume picture had a white theme to provide a more professional setting with green borders.
+		
+		
+		

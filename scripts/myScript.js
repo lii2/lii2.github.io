@@ -1,6 +1,12 @@
-var img = document.getElementById('selfpic');
+'use strict';
 
-window.onload = function(){
-    img.className -= "fadein";
+window.onload = function () {
+    var selfpic = document.getElementById('selfpic');
+    selfpic.className -= "fadein";
 
+};
+
+function displayEportfolioInfo() {
+    var projectparagraph = document.getElementById('projectparagraph');
+    projectparagraph.src = "images/eportfolioparagraph.png";
 }
