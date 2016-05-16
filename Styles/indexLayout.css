@@ -12,7 +12,14 @@ header{
 
 img {
 	opacity: 1;
-	transition: opacity 0.3s;
+	transition: opacity 0.5s;
+}
+
+#resumelink{
+
+    font-weight: bold;
+	color:#FFFFFF;
+	width: fit-content;
 }
 
 .fadein {
@@ -23,9 +30,6 @@ img {
         transition: opacity 1.5s;
     }
 
-.loaded {
-        opacity: 1;
-}
 	
 .backgroundgradient {
     background-color:#3A5F0B;
@@ -90,7 +94,7 @@ nav {
     margin: 8px 0px;
     font-weight: bold;
 	background: black;
-	opacity: 0.4;
+	opacity: 0.8;
 	color:#FFFFFF;
 	width: fit-content;
 	z-index:2;
@@ -141,6 +145,7 @@ nav {
         opacity: 1;
     }
 }
+
 #clickme {
     -webkit-animation: blink 1s;
     -webkit-animation-iteration-count: infinite;
@@ -150,51 +155,13 @@ nav {
     -o-animation-iteration-count: infinite;
 	float: right;
 }
-	
-#projects{
-	padding-top:100px;
-	height: 100%;
-    width: 700px;
-    float: left;
-    margin-bottom: 20px;
-	padding-left: 15px;
-}
 
-#projects > header {
-    font-size: 30px;
-    font-weight: bold;
-	font-family: "Times New Roman", Times, serif
+#bluetext{
+    color: aquamarine;
 }
+	
 
 .normalfont{
 	font-size: 15px;
 	font-family: "Times New Roman", Times, serif
-}
-
-
-.projectscontainer{
-	position:absolute;
-	top: 20vh;
-	left: 30px;
-	width: 800px;
-}
-	
-.projectarticle {
-    width: 300px;
-    float: left;
-	margin-left: 25px;
-    margin-left: 25px;
-    margin-bottom: 10px;
-	
-}
-
-.projectarticlethumbnail {
-    width: 250px;
-    height: 250px;
-}
-
-.projectarticlename {
-    font-size: 15px;
-    color: #603813;
-    font-weight: bold;
 }

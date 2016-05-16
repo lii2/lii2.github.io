@@ -10,62 +10,92 @@
 	<link href="Styles/projectsLayout.css" rel = "stylesheet">
 </head>
 
-<body background="images/the wall.png">
+<body>
 
 	<nav class="backgroundgradient" id = "navigationbar" >
 			<ul>
 				<li><a id = "navtitle">Welcome to Jeffrey's Eportfolio</a></li>
-				<li><a class="navlink" href="resume.html">Resume</a></li>
 				<li><a class="navlink" href="projects.html">Projects</a></li>
 				<li><a class="navlink" href="index.html">Home</a></li>
 			</ul>
 	</nav>
 
 	<section id = "projects" >
-		<header> Four Select Projects completed by Me <span class="normalfont">(The one named Chi-Young Jeffrey Lii)</span></header>
+		<header id ="projectstitle"> Four Select Projects completed by Me <div class="normalfont">(The one named Chi-Young Jeffrey Lii)</div></header>
 		
 		<section class="projectscontainer">
 			
-			<article class="projectarticle">
+			<article class="projectarticle" id = "eportfolioarticle">
 				<header>
 						<span class="projectarticlename">This Eportfolio</span>
 				</header>
 				<figure>
 					<img class="projectarticlethumbnail" src="images/website%20thumbnale.png" alt="" width="250" height="250"
-                         onclick="displayEportfolioInfo()"/>
+                         onclick="displayEportfolioInfo()"  id = "eportfoliothumbnail"/>
 				</figure>
+                <div id = "eportfoliointro">
+                    <header>Prep work and design</header>
+                    This site was designed and developed by me to showcase my skills and previous work. I was inspired by one page websites to make something truly beautiful. I decided on three pages, a landing page, a page that showed my projects, and a resume page. I wanted the landing page to have a strong impact focusing on me, so first I took a variety of pictures to put in the center.
+                    <br><br>
+                    I decided it should be relaxing and elegant, so I chose a color scheme of green and white. Green is traditionally the color of grown and renewal, while white indicates completion and openness. I choose a darker green to contrast with the white, and chose pictures with more greenery in them.
+                    <br><br>
+                    <header>Coding and Adjustments</header>
+                    After trying to work with my old wordpress eportfolio, I was quickly frustrated by the lack of control wordpress allowed me, so I attempted to register a domain with google sites only to grow frustrated with google site's lack of customization options.
+                    <br><br>
+                    Fortunately I had a github account which comes with one free domain, so I quickly converted that from an old project to a new portfolio site. I quickly began to write my site, only to discover that unfortunately the photos I took did not play nice with different monitor aspect ratios. I was forced to abandon my one page design and write a more traditional three page design.
+                    <br><br>
+                    <header>The Landing Page</header>
+                     A navigation bar was added to the top, for convenience, with fixed positioning for better browser integration. The element sizes are also based on viewport height to better accomodate various monitor sizes. The nav bar was originally going to link to a seperate page for all of the projects I have done, but that would result in a ridculous amount of links. I considered bunching them up into a list, but decided to simply choose a few projects that best displayed the current me, and focus on those. 
+                    <br><br>
+                     I overlayed some introductory text over the picture so the viewer would know who I was. Black background with white text so it would be easily readable, and some transparency so as to not break up the background picture.   I chose the photo with the best lighting and centering. The pictures taken were much too big so I resized the one chosen to about half, then I added a fade in animation to smooth the loading time transition. I added a simple blinking animation to draw attention to the resume link.
+                    <br><br>
+                    <header>The Projects Page</header>
+                    At around this time, I realized that a resume page would be redundant with a projects page, so I added a download link to the landing page instead and removed the resume page. The first iteration of the projects page was much simpler with an ugly repeating tan background. I tried to build descriptions of the projects into the page, but count that it just increased the page clutter and made the page visually appealling. I removed the background and raised the images to make them pop out more.
+                    <br><br>
+                    I decided to focus on the eportfolio and built a seperate sidebar to house the other three projects. I accompanied the pictures with external links to fill them out content-wise, and then built up another main container to full explain my Eportfolio design decisions.
+                </div>
 			</article>
 			
-			<article class="projectarticle">
+            <div class="sidebar">
+            
+			<article class="projectarticle" id = "naoarticle">
 				<header>
 						<span class="projectarticlename">Humanoid Robot Nao Skit</span>
 				</header>
 				<figure>
 					<img class="projectarticlethumbnail" src="images/photo of nao team.jpg" alt="" width="250" height="250" border="0" />
 				</figure>
+                <div class="caption">Student-programmed robot steals the show at president’s tailgate:
+                <a href="http://news.psu.edu/story/382768/2015/11/30/academics/student-programmed-robot-steals-show-president%E2%80%99s-tailgate">Link to article</a>
+                </div>
 			</article>
 			
-			<article class="projectarticle">
+			<article class="projectarticle" id = "apparticle">
 				<header>
-						<span class="projectarticlename">Simple Android Apps</span>
+						<span class="projectarticlename">The Colors Game</span>
 				</header>
 				<figure>
 					<img class="projectarticlethumbnail" src="images/colors store page.png" alt="" width="250" height="250" border="0" />
 				</figure>
+                <div class="caption">A self-published android game:
+                <a href="https://play.google.com/store/apps/details?id=lii2.colorgame">Link to store page</a>
+                </div>
 			</article>
 			
-			<article class="projectarticle">
+			<article class="projectarticle" id = "machinelearningarticle">
 				<header>
 						<span class="projectarticlename">Coin Acoustics classifier</span>
 				</header>
 				<figure>
 					<img class="projectarticlethumbnail" src="images/220-lda.png" alt="" width="250" height="250" border="0" />
 				</figure>
+                <div class="caption">Machine Learning in Action
+                <a href="acoustic-processing-and-pattern-recognition-of-coins.pptx">Link to the ppt</a>
+                </div>                
 			</article>
+            </div>
 			
 		</section>
-        
-        <img id="projectparagraph" src="images/default info.jpg">
         
 	</section>
     

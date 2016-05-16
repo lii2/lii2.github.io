@@ -11,14 +11,17 @@ header{
 }
 
 img {
+    padding: 10px;
+    border: 1px solid #3A5F0B;
+    box-shadow:  -1px 1px #3A5F0B,
+         -2px 2px #3A5F0B,
+         -3px 3px #3A5F0B,
+         -4px 4px #3A5F0B,
+         -5px 5px #3A5F0B;
+     border-radius: 10%;
 
-    border: 5px solid #021a40;
 }
 
-.img:hover {
-   border-color: purple;
-}
-	
 .backgroundgradient {
     background-color:#3A5F0B;
 }
@@ -60,17 +63,15 @@ nav {
 }
 
 #navigationbar{
-	position:fixed;
+	position:absolute;
 }
 
 
 #projects{
-	padding-top:100px;
-	height: 100%;
-    width: 100%;
-    float: left;
-    margin-bottom: 20px;
-	padding-left: 15px;
+	position:relative;
+    top: 100px;
+	height: 100vh;
+    width: 100vw;
 }
 
 #projects > header {
@@ -86,18 +87,11 @@ nav {
 
 
 .projectscontainer{
-	float: left;
-	top: 20vh;
-	left: 30px;
-	width: 45vw;
+    margin:20px;
 }
 	
 .projectarticle {
-    width: 300px;
-    float: left;
-	margin-left: 25px;
-    margin-left: 25px;
-    margin-bottom: 10px;
+    margin-bottom:50px;
 	
 }
 
@@ -110,11 +104,51 @@ nav {
     font-size: 20px;
     color: #603813;
     font-weight: bold;
+    margin: 25px;
 }
 
-#projectparagraph{
-    width:45vw;
-    float: right;
-    margin-right: 5px;
-    border: 5px solid #021a40;
+#eportfolioarticle{
+    float:left;
+    width:60vw;
+    height: fit-content;
+}
+
+.sidebar{    
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    right: 0;
+    width:350px;
+    margin-right:50px;
+}
+
+.caption:{
+    margin-right:50px;
+}
+
+
+#naoarticle{
+
+}
+
+#apparticle{
+
+}
+
+#machinelearningarticle{
+
+}
+
+#eportfoliothumbnail{
+    float:left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#eportfoliointro{
+    margin-left: 40px;
+}
+
+#projectstitle{
+    margin-left:50px;
 }
