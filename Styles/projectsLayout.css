@@ -120,10 +120,16 @@ nav {
     right: 0;
     width:350px;
     margin-right:50px;
+    background:white;
+    border-radius:5%;
+    border:5px;
+    height:fit-content;
+    
 }
 
 .caption:{
     margin-right:50px;
+    margin-left:50px;
 }
 
 
